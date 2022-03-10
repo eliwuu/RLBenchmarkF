@@ -8,9 +8,14 @@
 
   <ItemGroup>
     <Compile Include="WeatherForecast.fs" />
+    <Compile Include="Controllers\UserController.fs" />
     <Compile Include="Controllers/WeatherForecastController.fs" />
     <Compile Include="Program.fs" />
     <None Include="Dockerfile" />
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.14.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RLBenchmarkF.Models\RLBenchmarkF.Models.fsproj" />
   </ItemGroup>
 </Project>

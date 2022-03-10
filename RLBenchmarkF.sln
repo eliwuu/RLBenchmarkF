@@ -11,6 +11,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "RLBenchmarkF.Data", "RLBenc
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "RLBenchmarkF.Manager", "RLBenchmarkF.Manager\RLBenchmarkF.Manager.fsproj", "{301155E3-5115-44C4-B918-C294CEE326EA}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Test", "Test\Test.fsproj", "{98A2A38A-4D10-4C8E-9126-ABD8077FD274}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{301155E3-5115-44C4-B918-C294CEE326EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{301155E3-5115-44C4-B918-C294CEE326EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{301155E3-5115-44C4-B918-C294CEE326EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98A2A38A-4D10-4C8E-9126-ABD8077FD274}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98A2A38A-4D10-4C8E-9126-ABD8077FD274}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98A2A38A-4D10-4C8E-9126-ABD8077FD274}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98A2A38A-4D10-4C8E-9126-ABD8077FD274}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

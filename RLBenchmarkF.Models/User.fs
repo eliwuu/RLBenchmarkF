@@ -29,12 +29,13 @@ module User =
     let exist (email: string) = true
     let delete (email: string) = true
     let update (user: Model) = user
-    let get (email: string) = exist
+    //let get (email: string) = {Id = "abcd"; Role = Role.Client; First = "A"; Last = "B"; Email = "abcd@def.pl"; Salt = }
 
-    let authenticate (userLogin: LoginDto) = 
-        match exist(userLogin.Email) with
-            | true -> Password.verify(userLogin.Password)
-            | false -> 
+    //let authenticate (userLogin: LoginDto) = 
+    //    match exist(userLogin.Email) with
+    //        | true -> Password.verify(userLogin.Password)
+    //        | false -> false
+
     let authorize (user: Model) = Role.Client
 
 

@@ -17,5 +17,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\RLBenchmarkF.Models\RLBenchmarkF.Models.fsproj" />
+    <ProjectReference Include="..\RLBenchmarkF.Data\RLBenchmarkF.Data.fsproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
   </ItemGroup>
 </Project>

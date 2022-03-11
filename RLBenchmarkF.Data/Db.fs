@@ -1,4 +1,4 @@
-﻿namespace RLBenchmark.Data
+﻿namespace RLBenchmarkF.Data
 
 open Microsoft.Extensions.Configuration
 open System.IO

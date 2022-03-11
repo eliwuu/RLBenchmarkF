@@ -20,4 +20,7 @@
       <GeneratePathProperty></GeneratePathProperty>
     </PackageReference>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RLBenchmarkF.Models\RLBenchmarkF.Models.fsproj" />
+  </ItemGroup>
 </Project>

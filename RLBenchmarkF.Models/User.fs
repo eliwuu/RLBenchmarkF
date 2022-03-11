@@ -1,7 +1,7 @@
 ﻿namespace RLBenchmarkF.Models
 open Microsoft.Extensions.Logging
 open RLBenchmarkF.Manager
-
+open MongoDB.Bson
 
 
 module User = 
@@ -15,7 +15,7 @@ module User =
     type RegisterDto = { First: string; Last: string; Email: string; Password: string }
 
     type Model = { 
-        Id: string; 
+        Id: ObjectId; 
         Role: Role; 
         First: string; 
         Last: string; 
@@ -25,8 +25,8 @@ module User =
         } 
 
     let create (userRegister: RegisterDto) = 
-        Password.create(userRegister.Password)
-    let exist (email: string) = true
+        Password.create(userRegister.Password) 
+    let exist (email: string) = false
     let delete (email: string) = true
     let update (user: Model) = user
     //let get (email: string) = {Id = "abcd"; Role = Role.Client; First = "A"; Last = "B"; Email = "abcd@def.pl"; Salt = }
